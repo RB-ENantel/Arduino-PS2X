@@ -94,7 +94,7 @@ GNU General Public License for more details.
 #ifdef __AVR__
 #include <avr/io.h>
 
-#define CTRL_CLK        4
+#define CTRL_CLK        6 // Changed from 4 to 6
 #define CTRL_BYTE_DELAY 4 //3
 #else
 // Pic32...
